@@ -1,2 +1,9 @@
+build-essential
+python3-dev
+cython3
+meson
+ninja-build
+pkg-config
 libsndfile1
+libsndfile1-dev
 ffmpeg
