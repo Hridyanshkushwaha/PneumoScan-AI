@@ -6,3 +6,4 @@ soundfile==0.12.1
 matplotlib==3.8.4
 tflite-runtime==2.14.0
 pymongo
+setuptools==80.9.0
