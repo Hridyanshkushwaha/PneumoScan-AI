@@ -64,9 +64,9 @@ MONGO_DB         = "pneumoscan"
 MONGO_COLLECTION = "patients"
 
 # FIX 1: Confidence thresholds
-CONFIDENT_THRESHOLD    = 0.75   # above this → full result
-LOW_CONF_THRESHOLD     = 0.65   # between 0.65-0.75 → result + low-confidence warning
-INCONCLUSIVE_THRESHOLD = 0.65   # below this → Inconclusive
+CONFIDENT_THRESHOLD    = 0.65   # above this → full result
+LOW_CONF_THRESHOLD     = 0.55   # between 0.65-0.75 → result + low-confidence warning
+INCONCLUSIVE_THRESHOLD = 0.50   # below this → Inconclusive
 
 # FIX 4: Sliding window config
 WINDOW_SEC = 10    # seconds per window
